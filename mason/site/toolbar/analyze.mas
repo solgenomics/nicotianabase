@@ -10,7 +10,7 @@
     <li role="separator" class="divider"></li>
     <li class="dropdown-header">Sequence Analysis</li>
     <li><a href="/tools/blast" target="_blank">BLAST</a></li>
-
+    <li><a href="http://apollo.sgn.cornell.edu/apollo/annotator/index" target="_blank">Apollo</a></li>
     <li role="separator" class="divider"></li>
     <li class="dropdown-header">Other</li>
     <li><a href="/tools/onto/">Ontology Browser</a></li>
