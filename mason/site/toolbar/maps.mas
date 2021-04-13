@@ -1,0 +1,11 @@
+<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/cview/">Maps</a>
+  <ul class="dropdown-menu">
+    
+    <li><a href="/cview/map.pl?map_id=1">Nicotiana tabacum</a></li>
+    <li role="separator" class="divider"></li>
+    
+    <li class="dropdown-header">Genome</li>
+    <li><a class="footer" href="https://solgenomics.net/jbrowse_solgenomics/?data=data%2Fjson%2FNitabEd17Chr&loc=Nt01%3A54214939..81326762&tracks=DNA%2Cgene_models%2Crna_seq_all&highlight=">N. Tabacum Genome Browser</a></li>
+    
+  </ul>
+</li>

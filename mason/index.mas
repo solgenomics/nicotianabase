@@ -1,0 +1,66 @@
+<%args>
+$schema
+$static_content_path => undef
+$show_accept_dialog => undef
+$phenotype_files => undef
+$breeding_programs => undef
+$locations => undef
+$preferred_species => undef
+$editable_stock_props => {}
+$timestamp
+</%args>
+
+
+<center>
+<br/>
+<& homepage/carousel.mas &>
+<br/><br/>
+</center>
+
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">News</div>
+            <div class="panel-body">
+                <ul>
+                <li><a href=""><i>Nicotiana tabacum</i> news</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">Features</div>
+            <div class="panel-body">
+                <ul>
+                <li><a href="/search/trials">Search Trials</a></li>
+                <li><a href="/search/stocks">Search Accessions, Transgenics, and Constructs From ETH DB</a></li>
+                <li><a href="/breeders/phenotyping">Upload and Manage Your Phenotyping Data</a></li>
+                <li><a href="/tools/expression_atlas/">Expression Atlas</a></li>
+                <li><a href="/tools/documents/">Browse <i>Nicotiana tabacum</i> Gene Annotations</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">Genotypes</div>
+            <div class="panel-body">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">Data Dumps</div>
+            <div class="panel-body">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+

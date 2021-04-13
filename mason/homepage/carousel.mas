@@ -1,0 +1,181 @@
+<style>
+
+.slider-size {
+  height: 350px; /* This is your slider height */
+}
+.carousel {
+  max-width:98%;
+  /*width:100%;*/
+  margin:0 auto; /* center your carousel if other than 100% */
+  margin-bottom:0px;
+}
+
+.carousel-sgn-caption { 
+  position:relative;
+  float: left;
+  max-width:49%;
+  min-width:35%;
+  padding: 0px 10px 0px 10px;
+  margin-top:20px;
+
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  border-top-right-radius:12px;
+  border-bottom-right-radius:12px;
+}
+
+.carousel-sgn-caption a { 
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+}
+
+.carousel-sgn-caption a:hover { 
+  color: #666;
+  text-decoration: none;
+}
+
+.carousel-sgn-links {
+  position:absolute;
+  min-width:35%;
+  max-width:49%;
+  margin-top:20px;
+  right:0px;
+  text-align: left;
+
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 0.85;
+  filter: alpha(opacity=85); /* For IE8 and earlier */
+  border-top-left-radius:12px;
+  border-bottom-left-radius:12px;
+}
+
+.carousel-sgn-links ul { 
+  padding: 10px 30px 0px 15px;
+  list-style-type: none;
+}
+
+.carousel-sgn-links a { 
+  color: #000;
+  text-decoration: none;
+}
+
+.carousel-sgn-links a:hover { 
+  color: #666;
+  text-decoration: none;
+}
+
+@media (min-width: 0px) and (max-width: 650px) {
+
+    .carousel-sgn-caption {
+      margin-top:0px;
+      width: 100%;
+      max-width: 100%;
+      border-radius:0px;
+      float: none;
+      margin-bottom:0px;
+    }
+
+    .carousel-sgn-links {
+      max-width: 100%;
+      width: 100%;
+      border-radius:0px;
+      bottom:30px;
+    }
+    
+    .carousel-indicators {
+      bottom:0px;
+      margin-bottom:5px;
+    }
+
+}
+
+
+</style>
+
+<!--
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+
+<script>
+
+  jQuery(document).ready(function() {
+  //   $('.carousel').carousel({
+  //     interval: 20000,
+  //     // wrap:true
+  //   });
+    
+    
+    
+    
+    
+    
+    var $item = jQuery('.carousel .item');
+    var $wHeight = jQuery(window).height();
+
+    var $numberofSlides = jQuery('.item').length;
+    var $currentSlide = Math.floor((Math.random() * $numberofSlides));
+
+    jQuery('.carousel-indicators li').each(function(){
+      var $slideValue = jQuery(this).attr('data-slide-to');
+      if($currentSlide == $slideValue) {
+        jQuery(this).addClass('active');
+        $item.eq($slideValue).addClass('active');
+      } else {
+        jQuery(this).removeClass('active');
+        $item.eq($slideValue).removeClass('active');
+      }
+    }); 
+
+    jQuery('.carousel').carousel({
+      interval: 20000,
+      wrap: "true",
+      pause: "false"
+    });
+    
+    
+    //$("#myCarousel").swiperight(function() {  
+    //      $("#myCarousel").carousel('prev');  
+    //    });  
+    //   $("#myCarousel").swipeleft(function() {  
+    //      $("#myCarousel").carousel('next');  
+    //   });  
+       
+       jQuery(".ui-loading").css("display","none");
+       jQuery(".ui-loader").css("display","none");
+  });
+</script>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <br/><br/>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+    <div class="item">
+          <div style="background:url('/documents/img/nicotianabase/nicotiana_carousel.jpg') center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption">
+              <a href="" target="_blank">
+                <h3>Nicotiana tabacum Project</h3>
+                <p>Information and Goals</p>
+              </a>
+            </div>
+                       
+          </div>
+        </a>
+      </div>
