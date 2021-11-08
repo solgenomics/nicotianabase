@@ -1,7 +1,7 @@
 <li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/search/">Genes</a>
   <ul class="dropdown-menu">
-    <li><a href="/search/stocks?prop=VectorType&value=Contruct">Genesnames</a></li>
-    <li><a href="/search/stocks?prop=VectorType&value=Nitab_constructs">Nitab</a></li>
-    <li><a href="/search/stocks?prop=VectorType&value=Contruct">Contructs</a></li>
+    <li><a href="/search/stocks?prop=VectorType&value=Nitab_constructs&stock_type=vector_construct">Genesnames</a></li>
+    <li><a href="/search/stocks?prop=VectorType&value=Nitab_constructs&stock_type=vector_construct">Nitab</a></li>
+    <li><a href="/search/stocks?prop=VectorType&value=Construct&stock_type=vector_construct">Contructs</a></li>
   </ul>
 </li>
