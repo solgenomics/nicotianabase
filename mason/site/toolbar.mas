@@ -12,11 +12,11 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <& toolbar/search_menu.mas &>
-        <& toolbar/search_genes.mas &>
-        <& toolbar/search_vectors.mas &>
-        <& toolbar/search_building_blocks.mas &>
-        <& toolbar/manage.mas &>
+        <& toolbar/browse.mas &>
         <& toolbar/analyze.mas &>
+        <& toolbar/downloads.mas &>
+        <& toolbar/search_genes.mas &>
+        <& toolbar/manage.mas &>
         <& toolbar/about.mas &>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -71,6 +71,36 @@
         margin-top:0px;
         padding-top:0px;
     }
+
+    .dropdown-submenu {
+      position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+      display: none;
+      visibility: hidden;
+    }
+    .dropdown-submenu:hover .dropdown-menu {
+      display: block;
+      visibility: visible;
+      top: 0;
+      left: 100%;
+      margin-left: .1rem;
+      margin-right: .1rem;
+    }
+
+    .dropdown-submenu a::after {
+
+      transform: rotate(-90deg);
+      position: absolute;
+      right: 6px;
+      top: .8em;
+    }
+
+    .dropdown-submenu > a > ul > li{
+      visibility: hidden;
+    }
+
   }
   
 </style>

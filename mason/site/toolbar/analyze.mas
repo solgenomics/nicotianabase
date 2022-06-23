@@ -1,4 +1,4 @@
-<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/tools/">Analyze</a>
+<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/tools/">Tools</a>
   <ul class="dropdown-menu">
     <li><a href="https://vigs.solgenomics.net" target="_blank">VIGS</a></li>
     <li><a href="http://nea.sgn.cornell.edu" target="_blank">Expression Atlas</a></li>
