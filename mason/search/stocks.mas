@@ -337,11 +337,10 @@ jQuery(document).ready(function () {
         _draw_editable_stockprops_search_fields();
     });
 
-    jQuery(document).on("keyup", 'input[name="editable_stockprop_search_inputs"]', function(){
-        //Store typed value in object, in case of redraw inputs (input deletion or addition) the value will be still there. Also for search submission
-        editable_stockprops_search[jQuery(this).data('property')]["value"] = jQuery(this).val();
-        console.log("editable stockprops search is "+JSON.stringify(editable_stockprops_search));
-    });
+    //needs to be fixed
+    jQuery('#editable_stockprop_search_div').find("#field_input_id").autocomplete({
+                       source: '/ajax/stock/stockproperty_autocomplete?property='+ jQuery('#editable_stockprop_search_term').val(),
+                    });
 
     jQuery(document).on("change", 'select[name="editable_stockprop_matchtype"]', function(){
 
@@ -404,9 +403,10 @@ jQuery(document).ready(function () {
     });
 
    jQuery('#submit_stock_search').click( function() {
-
+        var editable_stockprops_search = {};
         if(jQuery('#field_input_id').val()){
             editable_stockprops_search[jQuery('#editable_stockprop_search_term').val()] = {"matchtype": "contains"};
+            editable_stockprops_search[jQuery('#editable_stockprop_search_term').val()]["value"] = jQuery('#field_input_id').val();
         }
 
         _load_stock_search_results(jQuery('#stock_type_select option:selected').text(), editable_stockprops_search, stockprop_extra_columns_view, stockprop_extra_columns_view_array);
