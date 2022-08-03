@@ -11,11 +11,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <& toolbar/search_menu.mas &>
+        <& toolbar/search_genes.mas &>
         <& toolbar/browse.mas &>
         <& toolbar/analyze.mas &>
         <& toolbar/downloads.mas &>
-        <& toolbar/search_genes.mas &>
+        <& toolbar/databases.mas &>
         <& toolbar/manage.mas &>
         <& toolbar/about.mas &>
       </ul>
