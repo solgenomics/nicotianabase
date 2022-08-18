@@ -60,28 +60,14 @@ my $breeding_programs_select = simple_selectbox_html(
       <div class="col-sm-11">
         <div class="form-group form-group-sm">
       	  <label class="col-sm-3 control-label">Keywords: </label>
-          <div class="col-sm-9" >
+          <div class="col-sm-5" >
             <div class="form-group form-group-sm">
               <div class="input-group">
-<!--                 <span class="input-group-btn" width="20%">
-                  <select class="form-control" id="any_name_matchtype" name="any_name_matchtype">
-                    <option title="contains" value="contains" selected="selected">contains</option>
-                    <option title="starts with" value="starts_with">starts with</option>
-                    <option title="ends with" value="ends_with">ends with</option>
-                    <option title="exactly" value="exactly">exactly</option>
-                  </select>
-                </span> -->
                   <span class="input-group-btn">
                   <input class="form-control" name="any_name" id="any_name" value="" size="30" type="text" placeholder="Type search here..."/>
                 </span>
               </div>
             </div>
-<!--             <div class="form-group form-group-sm">
-              <label class="col-sm-3 control-label">Stock Type: </label>
-              <div class="col-sm-9" >
-                <% $stock_type_select %>
-              </div>
-            </div> -->
           </div>
         </div>
         <center>
@@ -92,27 +78,17 @@ my $breeding_programs_select = simple_selectbox_html(
     <br><br>
     <div class="row">
       <div class="col-sm-11"><br>
-
         <div class="form-group form-group-sm">
           <div class="col-sm-4" >
             <div class="form-group form-group-sm">
-              <label class="col-sm-1 control-label">Genes: </label><br>
+              <label class="col-sm-1 control-label">Gene: </label><br>
               <div class="input-group">
-<!--                 <span class="input-group-btn" width="20%">
-                  <select class="form-control" id="any_name_matchtype" name="any_name_matchtype">
-                    <option title="contains" value="contains" selected="selected">contains</option>
-                    <option title="starts with" value="starts_with">starts with</option>
-                    <option title="ends with" value="ends_with">ends with</option>
-                    <option title="exactly" value="exactly">exactly</option>
-                  </select>
-                </span> -->
                 <span class="input-group-btn" width="30%">
                   <input class="form-control" name="any_name_gene" id="any_name_gene" value="" size="30" type="text" placeholder="Type search here..."/>
                 </span>
               </div>
             </div>
           </div>
-
           <div class="col-sm-4" >
             <div class="form-group form-group-sm">
               <label class="col-sm-1 control-label">T-number: </label><br>
@@ -123,23 +99,9 @@ my $breeding_programs_select = simple_selectbox_html(
               </div>
             </div>
           </div>
-
-          <div class="col-sm-4" >
-            <div class="form-group form-group-sm">
-              <label class="col-sm-1 control-label">Vector: </label><br>
-              <div class="input-group">
-                <span class="input-group-btn" width="30%">
-                  <input class="form-control" name="any_name_vector" id="any_name_vector" value="" size="30" type="text" placeholder="Type search here..."/>
-                </span>
-              </div>
-            </div>
-          </div>
         </div>
-        <center>
-        <button class="btn btn-primary" id="submit_stock_search_simple" />Search</button>
-        </center>
-    <br/><br/>
-
+        <center><button class="btn btn-primary" id="submit_stock_search_simple" />Search</button>
+        </center><br/><br/>
       </div>
     </div>
     </&>
@@ -151,42 +113,26 @@ my $breeding_programs_select = simple_selectbox_html(
       <div class="col-sm-11">
         <div class="form-group form-group-sm">
       	  <label class="col-sm-3 control-label">Search fields: </label>
-          <div class="col-sm-9" >
+          <div class="col-sm-5" >
             <div class="form-group">
               <div class="input-group">
-                <span class="input-group-btn">
+                <!-- <span class="input-group-btn"> -->
                   <select class="form-control" id="editable_stockprop_search_term" name="editable_stockprop_search_term">
 %  foreach my $stockprop (@$editable_stock_props){
                     <option title="<% $stockprop %>" value="<% $stockprop %>" ><% $stockprop %></option>
 %  }
                   </select>
-<!--                 </span>
-                  <span class="input-group-btn">
-                    <button class="btn btn-primary btn-sm" id="editable_stockprop_search_add">Add</button>
-                </span> -->
-
           <div class="col-sm-9" >
             <div class="form-group">
               <div class="input-group">
-<!--                 <span class="input-group-btn" width="20%">
-                  <select class="form-control" id="editable_stockprop_matchtype" name="editable_stockprop_matchtype" data-property="field">
-                    <option title="contains" value="contains" selected="selected">contains</option>
-                    <option title="starts with" value="starts_with">starts with</option>
-                    <option title="ends with" value="ends_with">ends with</option>
-                    <option title="exactly" value="exactly">exactly</option>
-                    <option title="one of" value="one of">one of (separate multiple possibilities with commas)</option>
-                  </select>
-                </span> -->
                 <span class="input-group-btn">
                   <input type="text" class="form-control" name="editable_stockprop_search_inputs" id="field_input_id" data-property="field" placeholder="Type to Autocomplete"/>
                 </span>
               </div>
             </div>
           </div>
+          <center><button class="btn btn-primary" id="submit_stock_search" />Search</button></center> <br/><br/>
         </div>
-
-
-
             </div>
           </div>
         </div>
@@ -195,16 +141,7 @@ my $breeding_programs_select = simple_selectbox_html(
 
     <div id="editable_stockprop_search_div">
     </div>
-
-
-
-
     </&> <!-- closes advanced search -->
-
-    <center>
-    <button class="btn btn-primary" id="submit_stock_search" />Search</button>
-    </center>
-    <br/><br/>
   </div>
 </&>
 
