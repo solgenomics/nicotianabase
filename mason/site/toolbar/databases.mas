@@ -9,13 +9,13 @@
     </li>
     <li class="dropdown-submenu"><a href="#">Seed</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Storage</a><li>
+          <li><a class="dropdown-item" href="/breeders/seedlots">Storage</a><li>
         </ul>
     </li>
     <li class="dropdown-submenu"><a href="#">Plant</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Request</a><li>
-          <li><a class="dropdown-item" href="#">Tracker</a><li>
+          <li><a class="dropdown-item" href="/catalog/view">Browse Catalog</a><li>
+          <li><a class="dropdown-item" href="/order/stocks/view">My Orders</a><li>
         </ul>
       </li>
   </ul>
