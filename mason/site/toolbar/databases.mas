@@ -3,8 +3,8 @@
     <li class="dropdown-submenu">
     <li class="dropdown-header">Cloning</li>
 
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Nitab_constructs&stock_type=vector_construct">&nbsp;Search</a><li>
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Nitab_constructs&stock_type=vector_construct">&nbsp;Upload</a><li>
+          <li><a class="dropdown-item" href="/search/vectors">&nbsp;Search</a><li>
+          <li><a class="dropdown-item" href="/search/vectors">&nbsp;Upload</a><li>
 
     </li>
     <li role="separator" class="divider"></li>	
