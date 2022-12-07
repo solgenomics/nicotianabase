@@ -1,6 +1,7 @@
 <li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/search/">Search</a>
   <ul class="dropdown-menu">
     <li class="dropdown-submenu">
+       <a class="dropdown-item dropdown-toggle" href="/search/stocks">Accessions</a>
        <a class="dropdown-item dropdown-toggle" href="#">Annotation</a>
        <a class="dropdown-item dropdown-toggle" href="#">Genes sequences</a>
 <!--         <ul class="dropdown-menu">
