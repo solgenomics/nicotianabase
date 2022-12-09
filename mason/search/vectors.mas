@@ -3,7 +3,7 @@
 
 $sp_person_autocomplete_uri => '/ajax/people/autocomplete'
 $stock_types     => undef
-$editable_stock_props => undef
+$editable_vector_props => undef
 </%args>
 
 <& /util/import_javascript.mas, classes => [ 'jquery', 'jquery.dataTables', 'CXGN.Effects', 'CXGN.List' ] &>
@@ -149,7 +149,7 @@ selected => $accession_cvterm_id
             <div class="input-group">
               <span class="input-group-btn">
                 <select class="form-control" id="editable_stockprop_view_column_term" name="editable_stockprop_view_column_term">
-%  foreach my $stockprop (sort { "\L$a" cmp "\L$b" } @$editable_stock_props){
+%  foreach my $stockprop (sort { "\L$a" cmp "\L$b" } @$editable_vector_props){
                   <option title="<% $stockprop %>" value="<% $stockprop %>" ><% $stockprop %></option>
 %  }
                 </select>
@@ -321,7 +321,7 @@ jQuery(document).ready(function () {
   jQuery('#submit_stock_search_all').click( function() {
     var editable_stockprops_search = {};
       if(jQuery('#any_name').val()){
-%  foreach my $stockprop (@$editable_stock_props){
+%  foreach my $stockprop (@$editable_vector_props){
           editable_stockprops_search['<% $stockprop %>'] = {"matchtype": "contains"};
           editable_stockprops_search['<% $stockprop %>']["value"] = jQuery('#any_name').val();
 %  }
