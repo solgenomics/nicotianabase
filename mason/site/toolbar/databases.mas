@@ -4,7 +4,7 @@
     <li class="dropdown-header">Cloning</li>
 
           <li><a class="dropdown-item" href="/search/vectors">&nbsp;Search</a><li>
-          <li><a class="dropdown-item" href="/search/vectors">&nbsp;Upload</a><li>
+          <li><a class="dropdown-item" href="/vector/new">&nbsp;Upload</a><li>
 
     </li>
     <li role="separator" class="divider"></li>	
