@@ -3,7 +3,11 @@
     
     <li><a href="http://nea.sgn.cornell.edu" target="_blank">Expression Atlas</a></li>
     <li><a href="http://nicotiana.sgn.cornell.edu/NITAB5/organism-summary" target="_blank">Nicotiana Cyc</a></li>
-    <!-- <li><a href="#">gRNA</a></li> -->
+        <li><a href="https://bat-vigs.breedbase.org/">BAT VIGS tool</a></li>
+	<li><a href="/primer3">Primer3</a></li>
+    <li role="separator" class="divider"></li>
+
+<!-- <li><a href="#">gRNA</a></li> -->
 <!--     <li><a href="/accession_usage">Accession Usage</a></li>
     <li><a href="/tools/graphicalfiltering">Graphical Filtering</a></li>
     <li><a href="/barcode">Barcode Tools</a></li>
@@ -13,6 +17,7 @@
     <li class="dropdown-header">Sequence Analysis</li> -->
     <li><a href="/tools/blast" target="_blank">BLAST</a></li>
     <li><a href="http://apollo.sgn.cornell.edu/apollo/annotator/index" target="_blank">Apollo</a></li>
+
 <!--     <li role="separator" class="divider"></li>
     <li class="dropdown-header">Other</li>
     <li><a href="/tools/onto/">Ontology Browser</a></li>
