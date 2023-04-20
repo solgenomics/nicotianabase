@@ -12,7 +12,6 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <& toolbar/search_genes.mas &>
-        <& toolbar/browse.mas &>
         <& toolbar/analyze.mas &>
         <& toolbar/downloads.mas &>
         <& toolbar/databases.mas &>

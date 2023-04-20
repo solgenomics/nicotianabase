@@ -4,18 +4,19 @@
     <li class="dropdown-header">Cloning</li>
 
           <li><a class="dropdown-item" href="/search/vectors">&nbsp;Search</a><li>
-          <li><a class="dropdown-item" href="/vector/new">&nbsp;Upload</a><li>
+          <li><a class="dropdown-item" href="/vector/new">&nbsp;Upload page</a><li>
 
     </li>
     <li role="separator" class="divider"></li>	
-<li class="dropdown-header">Seed</li>
-          <li><a class="dropdown-item" href="/breeders/seedlots">&nbsp;Manage</a><li>
+    <li class="dropdown-header">Seed</li>
+          <li><a class="dropdown-item" href="/breeders/seedlots">&nbsp;Search and <br>&nbsp;upload stocks</a><li>
 
-<li role="separator" class="divider"></li>	
-<li class="dropdown-header">Plant</li>   
+    <li role="separator" class="divider"></li>	
+    <li class="dropdown-header">Plant</li>   
 
-          <li><a class="dropdown-item" href="/catalog/view">&nbsp;Browse Catalog</a><li>
+          <li><a class="dropdown-item" href="/catalog/view">&nbsp;Request plants</a><li>
           <li><a class="dropdown-item" href="/order/stocks/view">&nbsp;My Orders</a><li>
+          <li><a class="dropdown-item" href="#">&nbsp;Plant tracker</a><li>
 
 </ul>
 </li>

@@ -4,23 +4,13 @@
        <a class="dropdown-item dropdown-toggle" href="/search/stocks">Accessions</a>
        <a class="dropdown-item dropdown-toggle" href="#">Annotation</a>
        <a class="dropdown-item dropdown-toggle" href="#">Genes sequences</a>
-<!--         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Nitab_constructs&stock_type=vector_construct">Nitabs</a><li>
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Nitab_constructs&stock_type=vector_construct">Gene names</a><li>
-        </ul> -->
     </li>
-    <li class="dropdown-submenu"><a href="#">Markers</a>
-<!--         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=No_Nitab&stock_type=vector_construct">Empty Vectors</a><li>
-        </ul> -->
-    </li>
-    <li class="dropdown-submenu"><a href="#">Genotypes</a>
-<!--         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Building_blocks&stock_type=vector_construct">Fluorescent tags</a><li>
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Building_blocks&stock_type=vector_construc">Non Fluorescent tags</a><li>
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Building_blocks&stock_type=vector_construct">Promotors</a><li>
-          <li><a class="dropdown-item" href="/search/stocks?prop=VectorType&value=Building_blocks&stock_type=vector_construct">Terminators</a><li>
-        </ul> -->
-      </li>
+    <li class="dropdown-submenu"><a href="#">Markers</a></li>
+    <li class="dropdown-submenu"><a href="#">Genotypes</a></li>
+    <li class="dropdown-submenu"><a href="#">Gene families </a></li>
+    <li class="dropdown-submenu"><a href="#">Transcription factors </a></li>
+    <li class="dropdown-submenu"><a  href="#">Transposable elements</a></li>
+    <li class="dropdown-submenu"><a  href="#">LncRNA</a></li>
+    <li class="dropdown-submenu"><a  href="#">MiRNA </a></li>
   </ul>
 </li>
