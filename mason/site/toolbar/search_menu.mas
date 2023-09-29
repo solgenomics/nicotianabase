@@ -1,6 +1,6 @@
 <li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/search/">Search</a>
   <ul class="dropdown-menu">
-    <li><a href="/breeders/search">Wizard</a></li>
+    <!-- li><a href="/breeders/search">Wizard</a></li -->
     <li><a href="/search/phenotypes/stock">Vectors</a></li>
     <li><a href="/search/organisms">Organisms</a></li>
     <li><a href="/search/genotyping_trials">Genotyping Plates</a></li>
