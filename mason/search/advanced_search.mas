@@ -1,0 +1,51 @@
+<%args>
+</%args>
+
+
+<& /util/import_javascript.mas, classes => [ 'jquery', 'thickbox', 'jquery.dataTables' ] &>
+
+<center>
+    <table class="boxbgcolor2" width="100%" summary="">
+        <tr>
+            <td width="15%">&nbsp;</td>
+            <td width="70%" class="left">
+                <div class="boxcontent">
+                    <div class="subheading" style='font-size:1.1em'>
+                    Search<br>
+                    </div>
+                    <div class="boxsubcontent">
+                        <div style="margin-left:10px">
+                            <a href="/search/stocks">Accessions</a> - search for accessions<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/locus">Gene sequences</a> - Gene sequences search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="#">Gene annotation</a> - Search for many types of annotations and sequences.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/family">Gene families</a> - Gene family search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/markers">Markers</a> - Marker search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="#">Genotypes</a> - Genotypes search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="#">Transcription factors</a> - Find transcription factors.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="#">Transposable elements</a> - A transposable elements search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="#">LncRNA</a> - Search long non coding RNA in the database.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="#">miRNA</a> - Search miRNA contained in the database.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/people">People</a> - Search database of researchers.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/help/faq.pl">FAQ</a> - Frequently asked questions from users.<br><br></div>
+                    </div>
+                </div>
+            </td>
+            <td width="15%">&nbsp;</td>
+        </tr>
+    </table>
+</center>
+
+<%cleanup>
+
+</%cleanup>
