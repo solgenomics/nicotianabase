@@ -17,13 +17,13 @@
                         <div style="margin-left:10px">
                             <a href="/search/stocks">Accessions</a> - search for accessions<br><br></div>
                         <div style="margin-left:10px">
-                            <a href="/search/locus">Gene sequences</a> - Gene sequences search.<br><br></div>
+                            <a href="#">Gene sequences</a> - Gene sequences search.<br><br></div>
                         <div style="margin-left:10px">
                             <a href="#">Gene annotation</a> - Search for many types of annotations and sequences.<br><br></div>
                         <div style="margin-left:10px">
-                            <a href="/search/family">Gene families</a> - Gene family search.<br><br></div>
+                            <a href="#">Gene families</a> - Gene family search.<br><br></div>
                         <div style="margin-left:10px">
-                            <a href="/search/markers">Markers</a> - Marker search.<br><br></div>
+                            <a href="#">Markers</a> - Marker search.<br><br></div>
                         <div style="margin-left:10px">
                             <a href="#">Genotypes</a> - Genotypes search.<br><br></div>
                         <div style="margin-left:10px">
@@ -35,9 +35,7 @@
                         <div style="margin-left:10px">
                             <a href="#">miRNA</a> - Search miRNA contained in the database.<br><br></div>
                         <div style="margin-left:10px">
-                            <a href="/search/people">People</a> - Search database of researchers.<br><br></div>
-                        <div style="margin-left:10px">
-                            <a href="/help/faq.pl">FAQ</a> - Frequently asked questions from users.<br><br></div>
+                            <a href="#">People</a> - Search database of researchers.<br><br></div>
                     </div>
                 </div>
             </td>
