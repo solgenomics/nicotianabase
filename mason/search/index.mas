@@ -1,0 +1,45 @@
+<%args>
+</%args>
+
+
+<& /util/import_javascript.mas, classes => [ 'jquery', 'thickbox', 'jquery.dataTables' ] &>
+
+<center>
+    <table class="boxbgcolor2" width="100%" summary="">
+        <tr>
+            <td width="15%">&nbsp;</td>
+            <td width="70%" class="left">
+                <div class="boxcontent">
+                    <div class="subheading" style='font-size:1.1em'>
+                    Search<br>
+                    </div>
+                    <div class="boxsubcontent">
+                        <div style="margin-left:10px">
+                            <a href="/search/organisms">Organisms</a> - search for organisms<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/locus">Genes</a> - Gene search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/features">Genome features</a> - Search for many types of annotations and sequences.<br><br></div>
+                       <div style="margin-left:10px">
+                            <a href="/search/family">Gene Families</a> - Unigene family search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/markers">Markers</a> - Marker search.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/images">Images</a> - Search images contained in the SGN database.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/search/people">People</a> - Search database of researchers who use SGN.<br><br></div>
+                        <div style="margin-left:10px">
+                            <a href="/help/faq.pl">FAQ</a> - Frequently asked questions from users of SGN.<br><br></div>
+                    </div>
+                </div>
+            </td>
+            <td width="15%">&nbsp;</td>
+        </tr>
+    </table>
+</center>
+
+<%cleanup>
+
+</%cleanup>
+
+
