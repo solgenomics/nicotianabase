@@ -1,9 +1,0 @@
-<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/search/">Building blocks</a>
-  <ul class="dropdown-menu">
-    <li><a href="/search/stocks?prop=VectorType&value=Building_blocks&stock_type=vector_construct">Tags</a></li>
-    <li><a href="#">Fluorescent tags</a></li>
-    <li><a href="#">Non-Fluorescent</a></li>
-    <li><a href="#">Promoters</a></li>
-    <li><a href="#">Terminators</a></li>
-  </ul>
-</li>

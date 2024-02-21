@@ -1,6 +1,0 @@
-<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/search/">Vectors</a>
-  <ul class="dropdown-menu">
-    <li><a href="/search/stocks?prop=VectorType&value=No_Nitab&stock_type=vector_construct">Empty vectors</a></li>
-    <li><a href="#">Genious files</a></li>
-  </ul>
-</li>
