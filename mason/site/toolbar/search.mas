@@ -7,16 +7,16 @@
        <a class="dropdown-item dropdown-toggle" href="/search/stocks">Accessions</a>
        <a class="dropdown-item dropdown-toggle" href="/breeders/seedlots">Seedlots</a>
        <a class="dropdown-item dropdown-toggle" href="#">Annotation</a>
-       <a class="dropdown-item dropdown-toggle" href="#">Genes sequences</a>
+       <a class="dropdown-item dropdown-toggle" href="/search/locus">Genes sequences</a>
     </li>
      <li role="separator" class="divider"></li>
 
-    <li class="dropdown-submenu"><a href="#">Markers</a></li>
+    <li class="dropdown-submenu"><a href="/search/markers">Markers</a></li>
     <li class="dropdown-submenu"><a href="#">Genotypes</a></li>
-    <li class="dropdown-submenu"><a href="#">Gene families </a></li>
+    <li class="dropdown-submenu"><a href="/tools/genefamily/search.pl">Gene families </a></li>
     <li class="dropdown-submenu"><a href="#">Transcription factors </a></li>
-    <li class="dropdown-submenu"><a  href="#">Transposable elements</a></li>
-    <li class="dropdown-submenu"><a  href="#">LncRNA</a></li>
-    <li class="dropdown-submenu"><a  href="#">MiRNA </a></li>
+    <li class="dropdown-submenu"><a href="#">Transposable elements</a></li>
+    <li class="dropdown-submenu"><a href="#">LncRNA</a></li>
+    <li class="dropdown-submenu"><a href="#">MiRNA </a></li>
   </ul>
 </li>
