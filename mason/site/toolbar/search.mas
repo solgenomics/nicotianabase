@@ -6,8 +6,8 @@
     <li class="dropdown-submenu">
        <a class="dropdown-item dropdown-toggle" href="/search/stocks">Accessions</a>
        <a class="dropdown-item dropdown-toggle" href="/breeders/seedlots">Seedlots</a>
-       <a class="dropdown-item dropdown-toggle" href="#">Annotation</a>
-       <a class="dropdown-item dropdown-toggle" href="/search/locus">Genes sequences</a>
+       <a class="dropdown-item dropdown-toggle" href="/search/annotation">Annotation</a>
+       <a class="dropdown-item dropdown-toggle" href="/search/features">Genes</a>
     </li>
      <li role="separator" class="divider"></li>
 
