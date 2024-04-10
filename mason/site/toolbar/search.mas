@@ -11,7 +11,7 @@
     </li>
      <li role="separator" class="divider"></li>
 
-    <li class="dropdown-submenu"><a href="/search/markers">Markers</a></li>
+    <li class="dropdown-submenu"><a href="/search/variants">Markers</a></li>
     <li class="dropdown-submenu"><a href="#">Genotypes</a></li>
     <li class="dropdown-submenu"><a href="/tools/genefamily/search.pl">Gene families </a></li>
     <li class="dropdown-submenu"><a href="#">Transcription factors </a></li>
