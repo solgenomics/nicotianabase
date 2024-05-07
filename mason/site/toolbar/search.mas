@@ -1,0 +1,22 @@
+<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/search/">Search</a>
+  <ul class="dropdown-menu">
+    <li class="dropdown-submenu"><a href="/breeders/search">Wizard</a></li>
+     <li role="separator" class="divider"></li>
+
+    <li class="dropdown-submenu">
+       <a class="dropdown-item dropdown-toggle" href="/search/stocks">Accessions</a>
+       <a class="dropdown-item dropdown-toggle" href="/breeders/seedlots">Seedlots</a>
+       <a class="dropdown-item dropdown-toggle" href="/search/annotation">Annotation</a>
+       <a class="dropdown-item dropdown-toggle" href="/search/features">Genes</a>
+    </li>
+     <li role="separator" class="divider"></li>
+
+    <li class="dropdown-submenu"><a href="/search/variants">Markers</a></li>
+    <li class="dropdown-submenu"><a href="#">Genotypes</a></li>
+    <li class="dropdown-submenu"><a href="/tools/genefamily/search.pl">Gene families </a></li>
+    <li class="dropdown-submenu"><a href="#">Transcription factors </a></li>
+    <li class="dropdown-submenu"><a href="#">Transposable elements</a></li>
+    <li class="dropdown-submenu"><a href="#">LncRNA</a></li>
+    <li class="dropdown-submenu"><a href="#">MiRNA </a></li>
+  </ul>
+</li>

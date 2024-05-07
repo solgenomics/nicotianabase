@@ -1,0 +1,15 @@
+<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown" href="/tools/">Tools</a>
+  <ul class="dropdown-menu">
+    
+    <li><a href="http://nea.sgn.cornell.edu" target="_blank">Expression Atlas</a></li>
+    <li><a href="http://nicotiana.sgn.cornell.edu/NITAB5/organism-summary" target="_blank">Nicotiana Cyc</a></li>
+    <li><a href="https://bat-vigs.breedbase.org/">BAT VIGS tool</a></li>
+	  <li><a href="/primer3">Primer3</a></li>
+	  <li><a href="#">gRNA</a></li>	
+
+    <li role="separator" class="divider"></li>
+
+    <li><a href="/tools/blast" target="_blank">BLAST</a></li>
+    <li><a href="http://apollo.sgn.cornell.edu/apollo-2.6.3/annotator/index" target="_blank">Apollo</a></li>
+  </ul>
+</li>
