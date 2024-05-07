@@ -7,7 +7,7 @@ services:
       PGPASSWORD: sol@ley!
       PGUSER: web_usr
     volumes:
-      - webdata:/home/production/volume
+    #####      - webdata:/home/production/volume
       - type: bind
         source: /home/production/nicotiana.breedbase.org/sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
@@ -20,12 +20,37 @@ services:
       - type: bind
         source: /home/production/nicotiana.breedbase.org/BAT_logo.png
         target: /home/production/cxgn/sgn/img/nicotianabase/BAT_logo.png
-#      - type: bind
-#        source: /home/production/sgn
-#        target: /home/production/cxgn/sgn
+      - type: bind
+        source: /home/production/sgn
+        target: /home/production/cxgn/sgn
       - type: bind
         source: /home/production/db_dumps
         target: /db_dumps
+      - type: bind
+        source: /export/prod/public_nicotiana/archive
+        target: /home/production/archive
+      - type: bind
+        source: /export/prod/public_nicotiana/tmp
+        target: /home/production/tmp
+      - type: bind
+        source: /export/prod/public_nicotiana/public/images
+        target: /home/production/public/images
+      - type: bind
+        source: /export/prod/public_nicotiana/logs
+        target: /home/production/logs
+      - type: bind
+        source: /export/prod/public_nicotiana/cache
+        target: /home/production/cache
+      - type: bind
+        source: /export/prod/public_nicotiana/cluster
+        target: /home/production/cluster
+      - type: bind
+        source: /export/prod/public_nicotiana/public/genefamily
+        target: /home/production/public/genefamily
+      - type: bind     
+        source: /export/prod/public_nicotiana/public/static_content
+        target: /home/production/public/static_content
+
     ports:
       - 8080:8080
     image: breedbase/breedbase:latest
