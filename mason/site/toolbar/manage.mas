@@ -13,6 +13,12 @@
     <li><a href="/breeders/genotyping/">Genotyping Plates</a></li>
     <li><a href="/breeders/samples/">Tissue Samples</a></li>
 
+    <li role="separator" class="divider"></li>    
+
+    <li><a href="/order/stocks/view">Order Stocks</a></li>
+    <li><a href="/breeders/activities">Tracking Activities</a></li>
+    <li><a href="/breeders/transformations/">Transformations</a></li>
+
     <li role="separator" class="divider"></li>
 
     <li><a href="/fieldbook">Field Book App</a></li>
