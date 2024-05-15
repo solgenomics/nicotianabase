@@ -51,7 +51,7 @@
             <div class="form-group form-group-sm">
                 <div class="col-sm-3" >
                     <label class="col-sm-12 control-label">Name:</label><br>
-                    <p style="font-size:9px;"> Ex. Nitab_10g020000.1</p>
+                    <p style="font-size:9px;"> E.g. Nitab_10g020000.1</p>
                 </div>
                 <div class="col-sm-9" >
                     <input type="text" class="form-control" id="name" />
