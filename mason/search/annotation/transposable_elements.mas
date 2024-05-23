@@ -1,0 +1,62 @@
+<%args>
+</%args>
+
+<& /util/import_javascript.mas, classes => [ 'jquery', 'jquery.dataTables', 'CXGN.Effects', 'CXGN.List' ] &>
+
+<div class="container-fluid">
+
+<& /page/page_title.mas, title=>'Transposable Elements' &>
+
+
+<%perl>
+
+use CXGN::Page::FormattingHelpers qw / conditional_like_input_html simple_selectbox_html/;
+
+</%perl>
+
+
+<&| /page/info_section.mas, title => '', collapsible=>0, collapsed=>0 &>
+
+<div class="well well-sm">
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div id="stock_search_results_div" style="overflow:scroll" >
+                <table id="stock_search_results" width="100%" class="table table-hover table-striped">
+                    <tr><th>Transposable Elements</th><th> Number of elements*</th><th>Length occupied*</th><th> Percentage of sequence</th></tr>
+                    <tr><td><b>Retroelements</b></td><td><b>    900475  </b> </td><td><b> 1337013495 bp</b></td><td><b>   32.28 %</b></td></tr>
+                    <tr><td>SINEs:          </td><td>   1742  </td><td>     406857 bp </td><td>   0.01 %</td></tr>
+                    <tr><td>Penelope        </td><td>   1450  </td><td>     334923 bp </td><td>   0.01 %</td></tr>
+                    <tr><td>LINEs:          </td><td>  93211  </td><td>   50169665 bp </td><td>   1.21 %</td></tr>
+                    <tr><td> CRE/SLACS      </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>  L2/CR1/Rex    </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>  R1/LOA/Jockey </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>  R2/R4/NeSL    </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>  RTE/Bov-B     </td><td>  55212  </td><td>   29160064 bp </td><td>   0.70 %</td></tr>
+                    <tr><td>  L1/CIN4       </td><td>   8709  </td><td>   10580142 bp </td><td>   0.26 %</td></tr>
+                    <tr><td>LTR elements:   </td><td> 805522  </td><td> 1286436973 bp </td><td>  31.06 %</td></tr>
+                    <tr><td>  BEL/Pao       </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>  Ty1/Copia     </td><td>  90977  </td><td>   62766858 bp </td><td>   1.52 %</td></tr>
+                    <tr><td>  Gypsy/DIRS1   </td><td> 700067  </td><td> 1214206113 bp </td><td>  29.32 %</td></tr>
+                    <tr><td>    Retroviral  </td><td>  14478  </td><td>    9464002 bp </td><td>   0.23 %</td></tr>
+                    <tr><td><b>DNA transposons</b></td><td><b>9007</b></td><td><b>3435344 bp</b></td><td><b>0.08 %</b></td></tr>
+                    <tr><td>   hobo-Activator  </td><td>   6523  </td><td>    2919614 bp </td><td>   0.07 %</td></tr>
+                    <tr><td>   Tc1-IS630-Pogo  </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>   En-Spm          </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>   MuDR-IS905      </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>   PiggyBac        </td><td>    461  </td><td>      47373 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>   Tourist/Harbinger</td><td>     0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td>   Other (Mirage, P-element, Transib)  </td><td>      0  </td><td>          0 bp </td><td>   0.00 %</td></tr>
+                    <tr><td><b>Rolling-circles   </b> </td><td><b>10457  </b></td><td><b>4625037 bp </b></td><td><b>   0.11 %</b></td></tr>
+                    <tr><td><b>Unclassified   </b> </td><td><b>   3795645  </b></td><td><b>2032802695 bp </b></td><td><b>49.08 %</b></td></tr>                    
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+</&>
+
+
+
+

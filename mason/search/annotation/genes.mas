@@ -1,14 +1,11 @@
 <%args>
-
-
-
 </%args>
 
 <& /util/import_javascript.mas, classes => [ 'jquery', 'jquery.dataTables', 'CXGN.Effects', 'CXGN.List' ] &>
 
 <div class="container-fluid">
 
-<& /page/page_title.mas, title=>'Transcription Factors' &>
+<& /page/page_title.mas, title=>'Gene annotation and families' &>
 
 
 <%perl>
@@ -18,22 +15,25 @@ use CXGN::Page::FormattingHelpers qw / conditional_like_input_html simple_select
 </%perl>
 
 
+<br />
+
 <&| /page/info_section.mas, title => 'Search Results', collapsible=>1, collapsed=>0 &>
 
 <div class="well well-sm">
 
     <div class="panel panel-default">
         <div class="panel-body">
-            <p>Search by Transcription factor, gene name or description. E.g. AP2, Nitab_10g010000.1, AP2 domain</p><br><br>
+        <p>Search by gene name, description, GO terms or PFAM domains. E.g. Nitab_10g010000.1, hydrolase family, GO:0015631, p450</p><br><br>
             <div id="stock_search_results_div" style="overflow:scroll" >
                 <table id="stock_search_results" width="100%" class="table table-hover table-striped">
-                <thead>
-                    <tr>
-                        <th>Transcription factor families</th>
-                        <th>Description</th>
-                        <th>Genes</th>
-                    </tr>
-                </thead>
+                    <thead>
+                        <tr>
+                            <th>Stock Name</th>
+                            <th>Description</th>
+                            <th>GOs</th>
+                            <th>PFAMs</th>
+                        </tr>
+                    </thead>
                 </table>
             </div>
         </div>
@@ -54,13 +54,13 @@ use CXGN::Page::FormattingHelpers qw / conditional_like_input_html simple_select
 
 jQuery(document).ready(function () {
 
-  var stock_table = jQuery('#stock_search_results').DataTable({
+    var stock_table = jQuery('#stock_search_results').DataTable({
         'columnDefs': [{ 'width': 50, 'targets': 0 }],
-    // 'fixedColumns': true,
+        // 'fixedColumns': true,
         'ajax': { 
             'url':  '/ajax/search/annotation',
-            'data': {'file' : '/static/documents/transcription_factors.tsv'}
+            'data': {'file' : '/static/documents/annotation.tsv'}
         }
     });
-  });
+    });
 </script>

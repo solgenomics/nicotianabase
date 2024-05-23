@@ -64,7 +64,7 @@ $user_role => undef
     <div class="panel panel-default">
         <div class="panel-body">
 
-<&| /page/info_section.mas, title=>"Search Seedlots",  collapsible => 1, collapsed=>0 &>
+<&| /page/info_section.mas, title=>"Search Seedlots", collapsible => 1, collapsed=>0 &>
 
 <div class="well well-sm">
     <form class="form-horizontal" id="search_seedlot_form" name="search_seedlot_form">
@@ -81,7 +81,7 @@ $user_role => undef
             </div>
         </div>
         <div class="form-group form-group-sm">
-            <label class="col-sm-3 control-label">Contents (Accession Uniquename): <br><small class="text-muted">E.g. K326-x-Galpao-comum-F3-27254 </small></label>
+            <label class="col-sm-3 control-label">Contents (Accession Uniquename):<br><small class="text-muted">E.g. K326-x-Galpao-comum-F3-27254 </small></label>
             <div class="col-sm-7" >
                 <input class="form-control" id="search_seedlot_form_contents_accession" type="text" />
             </div>
