@@ -50,6 +50,9 @@ services:
       - type: bind     
         source: /export/prod/public_nicotiana/public/static_content
         target: /home/production/public/static_content
+      - type: bind
+        source: /home/production/nicotiana.breedbase.org/bash_history
+        target: /home/production/.bash_history
 
     ports:
       - 8080:8080
