@@ -1,0 +1,43 @@
+<%args>
+</%args>
+
+<& /util/import_javascript.mas, classes => [ 'jquery', 'jquery.dataTables', 'CXGN.Effects', 'CXGN.List' ] &>
+
+<div class="container-fluid">
+
+<& /page/page_title.mas, title=>'Pangenome' &>
+
+
+<%perl>
+
+use CXGN::Page::FormattingHelpers qw / conditional_like_input_html simple_selectbox_html/;
+
+</%perl>
+
+
+<&| /page/info_section.mas, title => '', collapsible=>0, collapsed=>0 &>
+
+<p>Venn diagram of 5 species genes</p><br><br>
+
+<div class="well well-sm">
+    <div class="item">
+        <img src="/documents/img/nicotianabase/pangenome.jpg" class="img-responsive" style="width:70%" alt="Responsive image">
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr><th>List of species</th><th>Number of genes used</th></tr>
+        <tr><td><i>N. tabacum</i> Basma Xanthi</td><td>33248</td></tr>
+        <tr><td><i>N. tabacum TN90</i></td><td>33395</td></tr>
+        <tr><td><i>N. tabacum K326 Nitab6</i></td><td>79908</td></tr>
+        <tr><td><i>N. sylvestris</i></td><td>22411</td></tr>
+        <tr><td><i>N. tomentosiformis</i></td><td>21886</td></tr>
+    </table>
+</div> 
+
+</&>
+
+
+
+

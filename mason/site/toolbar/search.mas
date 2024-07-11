@@ -16,7 +16,7 @@
     <li class="dropdown-submenu"><a href="/tools/genefamily/search.pl">Gene families </a></li>
     <li class="dropdown-submenu"><a href="/search/annotation/transcription_factors">Transcription factors </a></li>
     <li class="dropdown-submenu"><a href="/search/annotation/transposable_elements">Transposable elements</a></li>
-    <li class="dropdown-submenu"><a href="#">LncRNA</a></li>
+    <li class="dropdown-submenu"><a href="/search/annotation/lncrna">LncRNA</a></li>
     <li class="dropdown-submenu"><a href="#">MiRNA </a></li>
   </ul>
 </li>
