@@ -24,7 +24,7 @@ services:
         source: /home/production/sgn
         target: /home/production/cxgn/sgn
       - type: bind
-        source: /home/production/db_dumps
+        source: /export/prod/public_nicotiana/db_dumps
         target: /db_dumps
       - type: bind
         source: /export/prod/public_nicotiana/archive
