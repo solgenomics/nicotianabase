@@ -3,26 +3,24 @@ services:
   breedbase:
     environment:
       PGDATABASE: cxgn_nicotiana
-      PGHOST: db7.sgn.cornell.edu
-      PGPASSWORD: sol@ley!
-      PGUSER: web_usr
+      PGHOST: db8.sgn.cornell.edu
     volumes:
     #####      - webdata:/home/production/volume
       - type: bind
-        source: /home/production/nicotiana.breedbase.org/sgn_local.conf
+        source: /home/production/nicotianabase/sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
       - type: bind
-        source: /home/production/nicotiana.breedbase.org
+        source: /home/production/nicotianabase
         target: /home/production/cxgn/nicotianabase
       - type: bind
         source: /export/prod/blast/databases/current/
         target: /home/production/blast
       - type: bind
-        source: /home/production/nicotiana.breedbase.org/BAT_logo.png
+        source: /home/production/nicotianabase/BAT_logo.png
         target: /home/production/cxgn/sgn/img/nicotianabase/BAT_logo.png
-      - type: bind
-        source: /home/production/sgn
-        target: /home/production/cxgn/sgn
+#      - type: bind
+#        source: /home/production/sgn
+#        target: /home/production/cxgn/sgn
       - type: bind
         source: /export/prod/public_nicotiana/db_dumps
         target: /db_dumps
@@ -55,11 +53,11 @@ services:
         target: /home/production/.bash_history
 
     ports:
-      - 8080:8080
+      - 8939:8080
     image: breedbase/breedbase:latest
  #   depends_on:
  #     - breedbase_db
-    container_name: breedbase_web
+    container_name: breedbase_web_nicotiana
 
   # breedbase_db:
   #   volumes:
