@@ -1,3 +1,4 @@
+version: '3.7'
 
 services:
   breedbase:
@@ -17,7 +18,7 @@ services:
         target: /home/production/blast
       - type: bind
         source: /home/production/nicotianabase/BAT_logo.png
-        target: /home/production/cxgn/sgn/img/nicotianabase/BAT_logo.png
+        target: /home/production/cxgn/sgn/static/documents/img/nicotianabase/BAT_logo.png
 #      - type: bind
 #        source: /home/production/sgn
 #        target: /home/production/cxgn/sgn
@@ -49,7 +50,7 @@ services:
         source: /export/prod/public_nicotiana/public/static_content
         target: /home/production/public/static_content
       - type: bind
-        source: /home/production/nicotiana.breedbase.org/bash_history
+        source: /home/production/nicotianabase/bash_history
         target: /home/production/.bash_history
 
     ports:
@@ -71,7 +72,7 @@ services:
   #     test: "pg_isready -U postgres -d breedbase || exit 1"
   #     interval: 10s
 
-volumes:
-  webdata:
+#volumes:
+#  webdata:
 #  dbdata:
 
