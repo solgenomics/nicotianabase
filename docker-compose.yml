@@ -19,9 +19,9 @@ services:
       - type: bind
         source: /home/production/nicotianabase/BAT_logo.png
         target: /home/production/cxgn/sgn/static/documents/img/nicotianabase/BAT_logo.png
-#      - type: bind
-#        source: /home/production/sgn
-#        target: /home/production/cxgn/sgn
+      - type: bind
+        source: /home/production/sgn_for_nicotianabase
+        target: /home/production/cxgn/sgn
       - type: bind
         source: /export/prod/public_nicotiana/db_dumps
         target: /db_dumps
