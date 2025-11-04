@@ -3,7 +3,7 @@
         <li><a href="http://nea.sgn.cornell.edu" target="_blank">Expression Atlas</a></li>
         <li><a href="http://nicotiana.sgn.cornell.edu/NITAB5/organism-summary" target="_blank">Nicotiana Cyc</a></li>
         <li><a href="https://bat-vigs.breedbase.org/">BAT VIGS tool</a></li>
-	<li><a href="https://crispget.breedbase.org/">CRISPGET Crispr design tool</a></li>
+	<li><a href="https://bat-crispget.breedbase.org/">CRISPget Crispr design tool</a></li>
         <li><a href="/primer3">Primer3</a></li>
 	<li><a href="/tools/in_silico_pcr">In Silico PCR</a></li>
         <li><a href="https://maps.solgenomics.net/Map/view_multi?mapSId=50&mapTId=9&dataSource1=https://www.solgenomics.net&dataSource2=https://www.solgenomics.net">Comparative Map Viewer</a></li>
