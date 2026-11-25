@@ -8,7 +8,8 @@
 	<li><a href="/tools/in_silico_pcr">In Silico PCR</a></li>
         <li><a href="https://maps.solgenomics.net/Map/view_multi?mapSId=50&mapTId=9&dataSource1=https://www.solgenomics.net&dataSource2=https://www.solgenomics.net">Comparative Map Viewer</a></li>
         <li><a href="#">gRNA</a></li>
-        <li><a href="/search/annotation/pangenome">Pangenome</a></li>	
+        <li><a href="/search/annotation/pangenome">Pangenome</a></li>
+	<li><a href="/cluster/analysis">Clustering</a></li>
 
         <li role="separator" class="divider"></li>
 
